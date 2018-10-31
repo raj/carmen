@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rake'
-
+require 'gems'
 require 'rake/testtask'
 Rake::TestTask.new(:spec) do |test|
   test.libs << 'lib' << 'spec'
